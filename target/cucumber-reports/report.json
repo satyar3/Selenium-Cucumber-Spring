@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-20T13:54:44.345Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.steps.CucumberHooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search a String in Google 1",
+        "description": "",
+        "id": "google-launch-and-search-feature;search-a-string-in-google-1",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.steps.CucumberHooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5548000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.qa.steps.CucumberHooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the home page of google",
+            "match": {
+              "location": "com.qa.steps.GoogleSteps.userIsOnTheHomePageOfGoogle()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.qa.steps.CucumberHooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3208000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.qa.steps.CucumberHooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User is typing \"Hello World with Java Thread 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello World with Java Thread 1\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.qa.steps.GoogleSteps.userIsTyping(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.qa.steps.CucumberHooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2064000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.qa.steps.CucumberHooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User is on the Search result page",
+            "match": {
+              "location": "com.qa.steps.GoogleSteps.userIsOnTheSearchResultPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.qa.steps.CucumberHooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 731000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.qa.steps.CucumberHooks.beforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "com.qa.steps.GoogleSteps.closeTheBrowser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.qa.steps.CucumberHooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SINGLE"
+          }
+        ]
+      }
+    ],
+    "name": "Google Launch And Search Feature",
+    "description": "",
+    "id": "google-launch-and-search-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Google.feature",
+    "tags": []
+  }
+]
